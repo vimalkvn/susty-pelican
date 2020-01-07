@@ -61,7 +61,7 @@ TEMPLATE_PAGES = {'menu.html': 'menu.html'}
 &lt;tt class="docutils literal"&gt;pelicanconf.py&lt;/tt&gt;, for example:&lt;/p&gt;
 &lt;pre class="literal-block"&gt;
 MENUITEMS = (
-    ('Home', '/'),
+    ('Home', 'https://vimalkvn.github.io/susty-pelican'),
     ('GitHub', 'https://github.com/vimalkvn/susty-pelican')
 )
 &lt;/pre&gt;
