@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Susty Pelican - Theme</title><link href="https://vimalkvn.github.io/susty-pelican/" rel="alternate"></link><link href="https://vimalkvn.github.io/susty-pelican/feeds/theme.atom.xml" rel="self"></link><id>https://vimalkvn.github.io/susty-pelican/</id><updated>2020-01-06T00:00:00+01:00</updated><entry><title>Susty Pelican — a port of the Wordpress Susty theme</title><link href="https://vimalkvn.github.io/susty-pelican/susty-pelican-a-port-of-the-wordpress-susty-theme.html" rel="alternate"></link><published>2020-01-06T00:00:00+01:00</published><updated>2020-01-06T00:00:00+01:00</updated><author><name>Vimalkumar Velayudhan</name></author><id>tag:vimalkvn.github.io,2020-01-06:/susty-pelican/susty-pelican-a-port-of-the-wordpress-susty-theme.html</id><summary type="html">&lt;div class="section" id="about-this-theme"&gt;
+&lt;h2&gt;About this theme&lt;/h2&gt;
+&lt;p&gt;This is a Pelican port of &lt;a class="reference external" href="https://github.com/jacklenox/susty"&gt;Susty&lt;/a&gt;
+Wordpress theme created by Jack Lenox.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="how-to-use"&gt;
+&lt;h2&gt;How to use&lt;/h2&gt;
+&lt;ol class="arabic"&gt;
+&lt;li&gt;&lt;p class="first"&gt;Download the &lt;a class="reference external" href="https://github.com/vimalkvn/susty-pelican/archive/master.zip"&gt;latest version&lt;/a&gt; of the theme from GitHub.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p class="first"&gt;Extract the zip archive to a subdirectory
+within your Pelican project, for example,
+under &lt;tt class="docutils literal"&gt;&lt;span class="pre"&gt;themes/susty-pelican&lt;/span&gt;&lt;/tt&gt;:&lt;/p&gt;
+&lt;pre class="literal-block"&gt;
+your-pelican-project
+│
+├── content
+│&amp;nbsp;&amp;nbsp; └── index.rst
+├── Makefile
+├── pelicanconf …&lt;/pre&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;</summary><content type="html">&lt;div class="section" id="about-this-theme"&gt;
+&lt;h2&gt;About this theme&lt;/h2&gt;
+&lt;p&gt;This is a Pelican port of &lt;a class="reference external" href="https://github.com/jacklenox/susty"&gt;Susty&lt;/a&gt;
+Wordpress theme created by Jack Lenox.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="how-to-use"&gt;
+&lt;h2&gt;How to use&lt;/h2&gt;
+&lt;ol class="arabic"&gt;
+&lt;li&gt;&lt;p class="first"&gt;Download the &lt;a class="reference external" href="https://github.com/vimalkvn/susty-pelican/archive/master.zip"&gt;latest version&lt;/a&gt; of the theme from GitHub.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p class="first"&gt;Extract the zip archive to a subdirectory
+within your Pelican project, for example,
+under &lt;tt class="docutils literal"&gt;&lt;span class="pre"&gt;themes/susty-pelican&lt;/span&gt;&lt;/tt&gt;:&lt;/p&gt;
+&lt;pre class="literal-block"&gt;
+your-pelican-project
+│
+├── content
+│&amp;nbsp;&amp;nbsp; └── index.rst
+├── Makefile
+├── pelicanconf.py
+├── publishconf.py
+├── tasks.py
+├── themes
+ &amp;nbsp;&amp;nbsp; └── susty-pelican
+&amp;nbsp; &amp;nbsp;     ├── README.rst
+&amp;nbsp;&amp;nbsp;      ├── static
+&amp;nbsp;       └── templates
+&lt;/pre&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p class="first"&gt;Update &lt;tt class="docutils literal"&gt;pelicanconf.py&lt;/tt&gt; to use the new theme:&lt;/p&gt;
+&lt;pre class="literal-block"&gt;
+THEME = 'themes/susty-pelican'
+&lt;/pre&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p class="first"&gt;If you like to add pages to the site's navigation menu, add to
+&lt;tt class="docutils literal"&gt;pelicanconf.py&lt;/tt&gt;:&lt;/p&gt;
+&lt;pre class="literal-block"&gt;
+TEMPLATE_PAGES = {'menu.html': 'menu.html'}
+&lt;/pre&gt;
+&lt;p&gt;Then add all your pages to the &lt;tt class="docutils literal"&gt;MENUITEMS&lt;/tt&gt; variable in
+&lt;tt class="docutils literal"&gt;pelicanconf.py&lt;/tt&gt;, for example:&lt;/p&gt;
+&lt;pre class="literal-block"&gt;
+MENUITEMS = (
+    ('Home', '/'),
+    ('GitHub', 'https://github.com/vimalkvn/susty-pelican')
+)
+&lt;/pre&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div class="section" id="credits"&gt;
+&lt;h2&gt;Credits&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://github.com/jacklenox/susty"&gt;Susty&lt;/a&gt; Wordpress theme by Jack Lenox.&lt;/li&gt;
+&lt;li&gt;Theme icon is from the &lt;a class="reference external" href="https://github.com/akveo/eva-icons"&gt;Eva Icons&lt;/a&gt; project.&lt;/li&gt;
+&lt;li&gt;Templates are from the Pelican builtin theme.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="license"&gt;
+&lt;h2&gt;License&lt;/h2&gt;
+&lt;p&gt;GPL v3&lt;/p&gt;
+&lt;!-- Links --&gt;
+&lt;/div&gt;
+</content><category term="Theme"></category></entry></feed>
