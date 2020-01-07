@@ -3,6 +3,27 @@ Susty Pelican
 This is a port of the Susty_ Wordpress theme to be used
 with the Pelican_ static site generator.
 
+Screenshots
+-----------
+**Main page listing all posts:**
+
+.. image:: images/main_page.jpg
+    :width: 300px
+    :alt: Main page
+
+**Page with the site's navigation menu:**
+
+.. image:: images/menu_page.jpg
+    :width: 300px
+    :alt: Page with the website's menu
+
+**A blog post:**
+
+.. image:: images/blog_post.jpg
+    :width: 300px
+    :alt: A blog post
+
+
 How to use
 ----------
 1. Download the `latest version`_ of the theme.
