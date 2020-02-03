@@ -56,7 +56,7 @@ How to use
 4. If you like to add pages to the site's navigation menu, add to
    ``pelicanconf.py``::
 
-        TEMPLATE_PAGES = {'menu.html': 'menu.html'}
+        TEMPLATE_PAGES = {'menu.html': 'menu/index.html'}
 
    Then add all your pages to the ``MENUITEMS`` variable in
    ``pelicanconf.py``, for example::
