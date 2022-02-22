@@ -54,6 +54,10 @@
         {{ article.content }}
     </div><!-- /.entry-content -->
 
+
+    {% include 'comments.html' %}
+
+    <hr>
     <footer>
     {% if article.category %}
       <span class="cat-links">Category:
@@ -68,6 +72,9 @@
       </span>
     {% endif %}
     </footer>
+
+
+
 
 </article>
 {% endblock %}

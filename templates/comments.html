@@ -1,0 +1,12 @@
+{% if (article and article.status != "draft") or (page and page.status != "draft") %}
+  {% if EMAIL_COMMENTS %}
+  <section class="post-comments">
+    <h3>If you have any comments on this post</h3>
+      <p>Please send an email to
+    {{ EMAIL_ADDRESS }}.
+    If you would like your comment to be anonymous,
+    please state that in your email.
+    In any case, your email address will not be published.</p>
+  </section>
+  {% endif %}
+{% endif %}
